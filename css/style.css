@@ -35,5 +35,8 @@ body {
   .col-sm {
     margin-left: 5px;
     margin-right: 5px; } }
+@media screen and (min-width: 992px) {
+  .dropdown li {
+    text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */
