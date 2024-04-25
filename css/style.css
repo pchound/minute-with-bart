@@ -6,7 +6,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  max-width: 100%; }
+  width: 200px; }
 
 .navbar {
   z-index: 1; }
@@ -21,7 +21,7 @@ body {
   text-align: center; }
 
 .col-sm {
-  border: 5px solid #1C6EA4;
+  border: 2px solid #e0e0e0;
   margin-top: 5px;
   margin-bottom: 5px; }
 
@@ -42,10 +42,6 @@ body {
   .col-sm {
     margin-left: 2px;
     margin-right: 2px; } }
-@media screen and (min-width: 768px) {
-  .col-sm {
-    margin-left: 5px;
-    margin-right: 5px; } }
 @media screen and (min-width: 992px) {
   .navbar, #year_clock {
     width: 960px;
