@@ -5,7 +5,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  max-width: 100%; }
 
 .navbar {
   z-index: 1; }
@@ -27,6 +28,16 @@ body {
 .container {
   width: 98%; }
 
+#year_clock {
+  color: white;
+  background-color: #2e2e2e;
+  text-align: center;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 5px; }
+
 @media screen and (min-width: 540px) {
   .col-sm {
     margin-left: 2px;
@@ -36,7 +47,22 @@ body {
     margin-left: 5px;
     margin-right: 5px; } }
 @media screen and (min-width: 992px) {
+  .navbar, #year_clock {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto; }
+
   .dropdown li {
     text-align: left; } }
+/*@media screen and (min-width: 1200px)
+{
+.navbar, #year_clock
+{
+  width: 1200px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+}*/
 
 /*# sourceMappingURL=style.css.map */

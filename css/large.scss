@@ -1,7 +1,16 @@
 @media screen and (min-width: 992px)
 {
+
+  .navbar, #year_clock
+  {
+    width: 960px;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
     .dropdown li
     {
       text-align: left;
     }
+
 }
