@@ -28,7 +28,23 @@ body {
 .container {
   width: 98%; }
 
-#year_clock {
+.col-sm a, .col-sm a:visited {
+  font-size: 1.2em;
+  color: black; }
+
+.col-sm a:hover, .col-sm a:active {
+  color: #c33e3e; }
+
+h3 {
+  margin-top: 17px;
+  margin-bottom: 28px;
+  font-weight: bold;
+  border-top: 10px double #ff2100;
+  border-bottom: 10px double #ff2100;
+  padding: 5px;
+  width: 80%; }
+
+footer {
   color: white;
   background-color: #2e2e2e;
   text-align: center;
@@ -39,6 +55,12 @@ body {
   padding: 5px; }
 
 @media screen and (min-width: 540px) {
+    /* .container
+    {
+        display: inline;
+        width: 100%;
+
+    }*/
   .col-sm {
     margin-left: 2px;
     margin-right: 2px; } }

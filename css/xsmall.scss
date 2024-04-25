@@ -54,7 +54,31 @@ body {
       width: 98%;
   }
 
-  #year_clock
+
+  .col-sm a, .col-sm a:visited
+  {
+    font-size: 1.2em;
+    color: black;
+  }
+
+  .col-sm a:hover, .col-sm a:active
+  {
+    color: rgb(195, 62, 62);
+  }
+
+  h3
+  {
+    margin-top: 17px;
+    margin-bottom: 28px;
+    font-weight: bold;
+    border-top: 10px double #ff2100;
+    border-bottom: 10px double #ff2100;
+    padding: 5px;
+    width: 80%;
+  }
+
+
+footer
   {
     color: white;
     background-color: rgb(46, 46, 46);
