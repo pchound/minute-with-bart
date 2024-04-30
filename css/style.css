@@ -65,8 +65,8 @@ footer {
     margin-left: 2px;
     margin-right: 2px; } }
 @media screen and (min-width: 992px) {
-  .navbar, #year_clock {
-    width: 960px;
+  .navbar {
+    width: 100%;
     margin-left: auto;
     margin-right: auto; }
 
