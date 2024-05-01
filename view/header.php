@@ -17,7 +17,7 @@ require_once '../library/connections.php';
 </head>
 <body class="p-3 m-0 border-0 bd-example m-0 border-0">
 
-  <img src="../images/site-logo.jpg" class="img-responsive" alt="a minute with bart" > 
+  <a href="index.php"><img src="../images/site-logo.jpg" class="img-responsive" alt="a minute with bart"></a> 
 
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
