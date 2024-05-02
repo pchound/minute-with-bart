@@ -10,7 +10,7 @@
 <body>
     <div class="container mt-5">
         <h1>Add News Article</h1>
-        <form action="add_article.php" method="post">
+        <form action="../articles/add-article.php" method="post">
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
                 <input type="text" class="form-control" id="title" name="title" required>
